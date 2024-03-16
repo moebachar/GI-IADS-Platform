@@ -73,8 +73,11 @@ Make sure to replace `frontend` and `backend` with the actual directories contai
 These instructions should guide users through setting up both the frontend and backend components of your automated object detection platform, accommodating different operating systems.
 
 ## Usage
-Explain how to use your platform, including any commands or configurations needed.
+### Step 1: Click on Object Detection
 
+![Step 1: Click on Object Detection](https://github.com/moebachar/GI-IADS-Platform/raw/main/images/2.png)
+
+Click on the "Object Detection" button to start the detection process. This button is typically located in the main navigation menu or toolbar of the platform's user interface.
 ## Screenshots
 Include a screenshot for each step of the process with a description.
 
