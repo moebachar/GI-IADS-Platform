@@ -151,16 +151,19 @@ Choose the export destination by clicking on one of the buttons at the bottom. Y
 
 The exported dataset will be packaged as a zip file with the following structure:
 
-data_set_name
-- train
-  -- images
-  -- labels
-- test
-  -- images
-  -- labels
-- val
-  -- images
-  -- labels
+data set name
+
+-> train
+--> images
+  --> labels
+
+-> test
+  --> images
+  --> labels
+
+-> val
+  --> images
+  --> labels
 
 
 This structured zip file allows for easy integration with various machine learning frameworks and tools for training models.
