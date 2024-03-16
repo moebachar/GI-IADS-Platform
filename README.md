@@ -151,6 +151,7 @@ Choose the export destination by clicking on one of the buttons at the bottom. Y
 
 The exported dataset will be packaged as a zip file with the following structure:
 
+```bash
 data set name
 
 _ train
@@ -164,7 +165,7 @@ __ labels
 _ val
 __ images
 __ labels
-
+```
 
 This structured zip file allows for easy integration with various machine learning frameworks and tools for training models.
 
