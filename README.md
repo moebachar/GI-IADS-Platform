@@ -78,6 +78,25 @@ These instructions should guide users through setting up both the frontend and b
 ![Step 1: Click on Object Detection](https://github.com/moebachar/GI-IADS-Platform/raw/main/images/2.png)
 
 Click on the "Object Detection" button to start the detection process. This button is typically located in the main navigation menu or toolbar of the platform's user interface.
+
+### Step 2: Open the Data Set Creation Modal
+
+![Step 2: Open the Data Set Creation Modal](https://github.com/moebachar/GI-IADS-Platform/raw/main/images/3.png)
+
+Click on the plus button or any other relevant action to open the modal for creating a new data set. This action typically triggers a modal or a dialog box to appear on the screen, where you can input details for the new data set.
+
+### Step 3: Add Images and Labels to the Data Set
+
+![Step 3: Add Images and Labels to the Data Set](https://github.com/moebachar/GI-IADS-Platform/raw/main/images/4.png)
+
+Once the data set is created, it will be empty. To populate it with images and labels (optional), you can either click on the "Add Data Now" button or head to the "Importation" section. Clicking the "Add Data Now" button usually opens a file uploader interface where you can select and upload images along with optional labels. Alternatively, in the "Importation" section, you may find more advanced options for importing data sets from external sources or files.
+
+### Step 4: Import Images and Corresponding Labels
+
+![Step 4: Import Images and Corresponding Labels](https://github.com/moebachar/GI-IADS-Platform/raw/main/images/5.png)
+
+To import images along with their corresponding labels, ensure they have the same name. Images without corresponding labels will still be uploaded and can be labeled later within the platform. After importing the images, click on the plus button located at the bottom right corner. From the options that appear, select the dataset to which you want to add the images.
+
 ## Screenshots
 Include a screenshot for each step of the process with a description.
 
