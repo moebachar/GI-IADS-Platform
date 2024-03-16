@@ -154,16 +154,16 @@ The exported dataset will be packaged as a zip file with the following structure
 data set name
 
 _ train
-  __ images
-  __ labels
+__ images
+__ labels
 
 _ test
-  __ images
-  __ labels
+__ images
+__ labels
 
 _ val
-  __ images
-  __ labels
+__ images
+__ labels
 
 
 This structured zip file allows for easy integration with various machine learning frameworks and tools for training models.
