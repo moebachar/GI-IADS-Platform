@@ -154,7 +154,7 @@ The exported dataset will be packaged as a zip file with the following structure
 data set name
 
 -> train
---> images
+  --> images
   --> labels
 
 -> test
