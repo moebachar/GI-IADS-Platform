@@ -154,17 +154,17 @@ The exported dataset will be packaged as a zip file with the following structure
 ```bash
 data set name
 
-_ train
-__ images
-__ labels
+- train
+-- images
+-- labels
 
-_ test
-__ images
-__ labels
+- test
+-- images
+-- labels
 
-_ val
-__ images
-__ labels
+- val
+-- images
+-- labels
 ```
 
 This structured zip file allows for easy integration with various machine learning frameworks and tools for training models.
