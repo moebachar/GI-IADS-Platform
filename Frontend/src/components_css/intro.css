@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue&display=swap");
+
+#intro {
+  color-scheme: light;
+  text-size-adjust: 100%;
+  font-weight: 700;
+  color: #262626;
+  font-size: 50px;
+  font-family: "Epilogue", sans-serif;
+  line-height: 1.04;
+  box-sizing: border-box;
+  position: relative;
+  padding-top: 150px;
+}
+
+#btn_get_started {
+  height: 57.2px;
+  width: 258px;
+  font-family: "Epilogue", sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  margin: 0px;
+  margin-top: 10px;
+  padding-left: 36px;
+  padding-right: 36px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#btn_learn_more {
+  height: 57.2px;
+  width: 258px;
+  font-family: "Epilogue", sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  margin: 0px;
+  margin-top: 10px;
+  padding-left: 36px;
+  padding-right: 36px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+hr.seperator {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+#what_s_possible {
+  color-scheme: light;
+  text-size-adjust: 100%;
+  font-weight: 700;
+  color: #262626;
+  font-size: 50px;
+  font-family: "Epilogue", sans-serif;
+  line-height: 1.04;
+  box-sizing: border-box;
+  position: relative;
+  /* padding-top: 300px; */
+}
+
+.container {
+  padding-bottom: 100px;
+}
+
+#card_row {
+  padding-top: 10px;
+}
+
+.col-4 {
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  background-color: whitesmoke;
+}
+
+.card1 {
+  transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
+  width: 300px;
+  height: 200px;
+  padding: 0.5rem;
+  background: #ff5c6f;
+  border-radius: 8px;
+  backdrop-filter: blur(5px);
+  border-bottom: 3px solid rgba(255, 255, 255, 0.44);
+  border-left: 2px rgba(255, 255, 255, 0.545) outset;
+  box-shadow: -40px 50px 30px rgba(0, 0, 0, 0.28);
+  transform: skewX(10deg);
+  transition: 0.4s;
+  overflow: hidden;
+  color: white;
+  cursor: pointer;
+}
+.align {
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-self: flex-start;
+}
+
+.red {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ff605c;
+  box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.28);
+}
+
+.yellow {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ffbd44;
+  box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.28);
+}
+
+.green {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #00ca4e;
+  box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.28);
+}
+
+.card1 h1 {
+  text-align: center;
+  margin: 1.2rem;
+  color: rgb(218, 244, 237);
+  text-shadow: -10px 5px 10px rgba(0, 0, 0, 0.573);
+  padding-top: 15px;
+  font-size: 40px !important;
+  font-weight: 500 !important;
+  font-family: "Epilogue", sans-serif;
+}
+
+.card2 {
+  width: 300px;
+  height: 200px;
+  padding: 0.5rem;
+  background: #5d9eff;
+  border-radius: 8px;
+  backdrop-filter: blur(5px);
+  border-bottom: 3px solid rgba(255, 255, 255, 0.44);
+  border-left: 2px rgba(255, 255, 255, 0.545) outset;
+  box-shadow: -40px 50px 30px rgba(0, 0, 0, 0.28);
+  transform: skewX(10deg);
+  transition: 0.4s;
+  overflow: hidden;
+  color: white;
+  cursor: pointer;
+}
+
+.card2 h1 {
+  text-align: center;
+  margin: 1.2rem;
+  margin-left: 0.5rem;
+  color: rgb(218, 244, 237);
+  text-shadow: -10px 5px 10px rgba(0, 0, 0, 0.573);
+  padding-top: 15px;
+  padding-right: 10px;
+  font-size: 40px !important;
+  font-weight: 500 !important;
+  font-family: "Epilogue", sans-serif;
+}
+
+.card3 {
+  width: 300px;
+  height: 200px;
+  padding: 0.5rem;
+  background: #42d09c;
+  border-radius: 8px;
+  backdrop-filter: blur(5px);
+  border-bottom: 3px solid rgba(255, 255, 255, 0.44);
+  border-left: 2px rgba(255, 255, 255, 0.545) outset;
+  box-shadow: -40px 50px 30px rgba(0, 0, 0, 0.28);
+  transform: skewX(10deg);
+  transition: 0.4s;
+  overflow: hidden;
+  color: white;
+  cursor: pointer;
+}
+
+.card3 h1 {
+  text-align: center;
+  margin: 1.2rem;
+  color: rgb(218, 244, 237);
+  text-shadow: -10px 5px 10px rgba(0, 0, 0, 0.573);
+  font-size: 40px !important;
+  font-weight: 500 !important;
+  font-family: "Epilogue", sans-serif;
+}

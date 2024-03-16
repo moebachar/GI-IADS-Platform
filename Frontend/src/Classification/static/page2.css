@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Epilogue&family=Roboto&display=swap");
+/* @import "tailwindcss/base"; */
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+:root {
+  --vs-primary: 29 92 255;
+}
+
+/*Dialog Styles*/
+dialog {
+  /* padding: 1rem 3rem; */
+  /* height: 400px; */
+  /* width: 400px; */
+  background: white;
+  max-width: 1000px;
+  padding-top: 2rem;
+  border-radius: 20px;
+  border: 0;
+  box-shadow: 0 5px 30px 0 rgba(80, 76, 76, 0.1);
+  animation: fadeIn 1s ease both;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+dialog::backdrop {
+  animation: fadeIn 1s ease both;
+  background: rgb(255 255 255 / 40%);
+  z-index: 10;
+  backdrop-filter: blur(2px);
+}
+
+dialog:focus-visible {
+  outline: none;
+}
+/* .x {
+    filter: grayscale(1);
+    border: none;
+    background: none;
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    transition: ease filter, transform 0.3s;
+    cursor: pointer;
+    transform-origin: center;
+    &:hover {
+      filter: grayscale(0);
+      transform: scale(1.1);
+    }
+  } */
+/* h2 {
+    font-weight: 600;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+  } */
+/* p {
+    font-size: 1rem;
+    line-height: 1.3rem;
+    padding: 0.5rem 0;
+    a {
+      &:visited {
+        color: rgb(var(--vs-primary));
+      }
+    }
+  } */
+/* } */
+
+/*General Styles*/
+#button-primary {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  display: inline-block;
+  font-size: 0.8rem;
+  color: #fff !important;
+  background: rgb(var(--vs-primary) / 100%);
+  padding: 13px 25px;
+  border-radius: 17px;
+  transition: background-color 0.1s ease;
+  box-sizing: border-box;
+  transition: all 0.25s ease;
+  border: 0;
+  cursor: pointer;
+  box-shadow: 0 10px 20px -10px rgb(var(--vs-primary) / 50%);
+  /* &:hover {
+    
+  } */
+}
+
+#button-primary:hover {
+  box-shadow: 0 20px 20px -10px rgb(var(--vs-primary) / 50%);
+  transform: translateY(-5px);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#table {
+  padding-top: 13px;
+  /* width: 80%; */
+  position: absolute;
+  left: 17%;
+  top: 70px;
+}
+
+#btn {
+  border-radius: 25px;
+}
+
+.col {
+  padding: 0;
+}
+
+#firstdivrow {
+  padding-top: 20px;
+  padding-left: 3px;
+}
+
+#classrow {
+  padding-top: 15px;
+  padding-left: 3px;
+  margin-left: 24%;
+}
+
+#inputrow {
+  padding-top: 10px;
+  /* width: 100%;  */
+  margin-left: 16%;
+  /* margin-right: auto; */
+}
+
+#text {
+  font-family: "Roboto";
+  text-align: center;
+}
+
+#basic-addon1 {
+  width: 60px;
+  height: 30px;
+  font-size: 15px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  right: 13%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  /* border-radius: 15px; */
+  /* text-align: center; */
+}
+
+#col-2 {
+  position: relative;
+}
+
+#text-input {
+  border-radius: 20px;
+  width: 200px;
+}
+
+#alert {
+  margin-top: 10px;
+  animation: fadeOut 5s ease both;
+  height: 50px;
+}
+
+#strong {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* #input-create-data {
+  width: 250px;
+} */
+
+.inline {
+  display: inline;
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.animated-div-forward {
+  animation-name: forward;
+  animation-duration: 1s;
+  /* animation-direction: reverse; */
+  animation-timing-function: ease;
+}
+
+@keyframes forward {
+  from {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+
+.animated-div-backward {
+  animation-name: backward;
+  animation-duration: 1s;
+  /* animation-direction: reverse; */
+  animation-timing-function: ease;
+}
+
+@keyframes backward {
+  from {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+
+.btn:focus-visible {
+  box-shadow: none !important;
+}
+
+#col {
+  display: flex;
+  justify-content: center;
+}

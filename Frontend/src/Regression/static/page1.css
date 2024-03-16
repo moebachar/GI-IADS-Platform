@@ -1,0 +1,17 @@
+/* .ant-menu-submenu-title {
+  height: 55px !important;
+} */
+#menu {
+  position: fixed;
+  z-index: 900;
+  /* height: 64px; */
+  /* padding: 0 32px; */
+  /* width: 100%; */
+  /* background: #f8fafe; */
+  transition: box-shadow 0.3s ease-out, background 0.3s ease-out;
+}
+
+#submit {
+  margin-top: 10px;
+  /* float: right; */
+}
